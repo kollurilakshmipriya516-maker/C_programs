@@ -1,0 +1,10 @@
+#include<stdio.h>
+void main(){
+	int a=10,x=20;
+	float b=2.5,y;
+	float c=a+b;//implicit conersion
+	printf("%f",c);
+        y=float(x);//explict conersion
+        printf("Explict=%f",y);
+	
+}

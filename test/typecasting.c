@@ -1,0 +1,14 @@
+#include<stdio.h>
+void main(){
+	int a;
+	float b;
+	char c;
+	double d;
+	printf("a=");
+	scanf("%d",&a);
+	b=(float)a;
+	c=(char)a;
+	d=(double)a;
+	printf("b=%f\nc=%c",b,c);
+}
+

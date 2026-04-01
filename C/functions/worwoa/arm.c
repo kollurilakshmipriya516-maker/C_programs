@@ -1,0 +1,20 @@
+#include<stdio.h>
+void arm(){
+        int n,rem,rev=0,x;
+        printf("enter a n");
+        scanf("%d",&n);
+        x=n;
+        while(n>0){
+        rem=n%10;
+        rev+=rem*rem*rem;
+        n/=10;
+        }
+        if(rev==x)
+         printf("Armstrong");
+        else
+         printf("Not a Armstrong");
+}
+void main(){
+	arm();
+}
+
